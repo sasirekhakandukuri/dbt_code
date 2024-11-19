@@ -1,0 +1,7 @@
+version: 2
+sources:
+    - name: datafeed_shared_schema
+      database: "{{('dbt_schema')}}"
+      schema: public
+      tables:
+        - name: autoincrement_check

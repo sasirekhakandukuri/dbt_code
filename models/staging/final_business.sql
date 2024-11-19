@@ -1,4 +1,4 @@
-{{config(materialized='table',
+{{config(materialized='view',
         transient='false')}}
 
 with customers as (
